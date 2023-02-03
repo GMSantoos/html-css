@@ -1,0 +1,129 @@
+@charset "UTF-8";
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: black;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#titulo {
+    font-family: 'Bebas Neue', cursive;
+    flex-direction: column;
+    line-height: 35px;
+    font-size: 20px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    margin-left: -900px;
+    
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+
+h2{
+    font-size: 56px;
+    line-height: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+span {
+    color: orange;
+
+}
+
+p {
+    max-width: 500px;
+    padding-top: 20px;
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    
+}
+
+a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    margin-left: 80px;
+}
+
+#Cadastro {
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#Cadastro:hover {
+    background-color: orange;
+    color: white;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+        
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+input {
+    margin-top: 10px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 15px;
+    width: 430px;
+}

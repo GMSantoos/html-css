@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 1400px;
+}
+
+.cabecalho {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    
+}
+
+.cabecalho a {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px;
+}
+
+.cabecalho a:hover {
+    background-color: rgb(0, 119, 255);
+}
+
+.cabecalho a:last-child {
+    background-color: orange;
+    color: black;
+}
+
+body {
+    background-color: rgb(41, 40, 40);
+}
